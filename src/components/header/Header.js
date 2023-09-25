@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import { Link } from "./Link";
+import { Link } from "../link/Link";
 
 function switchTheme(e) {
   if (e.target.checked) {
