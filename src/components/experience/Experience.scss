@@ -1,14 +1,12 @@
 .work-exp {
-  padding-left: 20px;
   color: black;
   font-size: 20px;
 }
 
 .workexp {
+  margin-top: 0;
   font-size: 18px;
   color: #f74e4b;
-  padding-left: 20px;
-  padding-top: 20px;
 }
 
 .job-title {
@@ -22,6 +20,7 @@
   font-size: 16px;
   margin: 0px;
 }
+
 .date-location {
   color: var(--primary-colour);
   display: flex;

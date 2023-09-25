@@ -1,9 +1,9 @@
 import "./App.scss";
 import React from "react";
-import { Header } from "./Components/Header";
-import { Experience } from "./Components/Experience";
-import { Technologies } from "./Components/Technologies";
-import { Hobbies } from "./Components/Hobbies";
+import { Header } from "./components/header/Header";
+import { Experience } from "./components/experience/Experience";
+import { Technologies } from "./components/technologies/Technologies";
+import { Hobbies } from "./components/hobbies/Hobbies";
 import { jobs, language, education, hobbies } from "./Data";
 import "./Theme.scss";
 
