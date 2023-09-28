@@ -13,13 +13,13 @@ export class CV extends React.Component {
       <div className="CV">
         <Header />
         <div className="content">
-          <div className="left-content">
+          <div className="content__left">
             <h1 className="workexp">WORK EXPERIENCE</h1>
             {jobs.map((x) => (
               <Experience jobInfo={x} />
             ))}
           </div>
-          <div className="right-content">
+          <div className="content__right">
             <h1 className="workexp">TECHNICAL SKILLS</h1>
             {language.map((x) => (
               <Technologies language={x} />

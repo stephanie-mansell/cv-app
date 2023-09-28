@@ -13,9 +13,12 @@ function switchTheme(e) {
 export class Header extends React.Component {
   render() {
     return (
-      <div className="header">
-        <div class="theme-switch-wrapper">
-          <label className="theme-switch" for="checkbox" icon="light_mode">
+      <header className="header">
+        <div class="theme-switch">
+          <label
+            className="theme-switch__toggle"
+            for="checkbox"
+            icon="light_mode">
             <input type="checkbox" id="checkbox" onChange={switchTheme} />
             <div class="slider round"></div>
           </label>
@@ -23,14 +26,14 @@ export class Header extends React.Component {
         <div className="header-content">
           <div className="picture">
             <img
-              src={process.env.PUBLIC_URL + "Capture.PNG"}
-              alt="pic"
+              src={process.env.PUBLIC_URL + "image--steph.png"}
+              alt="Steph Mansell"
               className="profile"
             />
           </div>
           <div className="summary">
             <h1 className="name">Stephanie Mansell</h1>
-            <p className="main-job-title">Software Developer Apprentice</p>
+            <p className="main-job-title">Developer</p>
             <p className="summary-detail">
               A focused and passionate individual with a keen interest in
               software development. Quick to learn and is dedicated to
@@ -52,11 +55,11 @@ export class Header extends React.Component {
           />
           <Link
             icon="link"
-            link="https://www.linkedin.com/in/stephanie-mansell-50677197/"
-            text="linkedin.com/in/stephanie-mansell-50677197"
+            link="https://www.linkedin.com/in/stephanie-mansell/"
+            text="www.linkedin.com/in/stephanie-mansell"
           />
         </div>
-      </div>
+      </header>
     );
   }
 }
